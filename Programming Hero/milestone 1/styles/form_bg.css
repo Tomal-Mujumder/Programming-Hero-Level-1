@@ -4,13 +4,6 @@
     font-family: 'Cambria';
     font-size: 18px;
 }
-
-.playwrite-it-moderna-incomingfont {
-    font-family: "Playwrite IT Moderna", cursive;
-    font-optical-sizing: auto;
-    font-weight: 250;
-    font-style: normal;
-  }
 body{
     background-color:lemonchiffon;
 }
@@ -45,13 +38,14 @@ h1{
     margin: 15px;
     padding: 15px;
     font-family: 'Playwrite IT Moderna';
+    font-size: 26px;
 }
 .first_name,.last_name{
     margin: 0px;
     padding:0px;
 }
 .first_last_container{
-    display: inline-block;
+    /* display: inline-block; */
     margin: 8px;
     width:100%;
 }
