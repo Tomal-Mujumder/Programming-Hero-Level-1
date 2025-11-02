@@ -1,10 +1,11 @@
 
 const prompt = require('prompt-sync')();
 
-greet(name)
+function greet(name)
 {
-    console.log(name);
+    return name;
 }
 console.log("Enter your name: ");
 let name = prompt();
-greet(name);
+let you = greet(name);
+console.log(`Your name is ${you}`);
