@@ -1,0 +1,45 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: justify;
+    background-color: cornsilk;
+    margin: 15px;
+    padding: 5px;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    /* margin-bottom:15px; */
+    text-decoration: underline;
+}
+
+.first{
+    margin:20px 10px;
+    padding: 10px 10px;
+    border-bottom: 10px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px #aaaaaa;
+    /* box-shadow: bottom right blur spread color */
+}
+.second{
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border-bottom: 10px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px #aaaaaa;
+}
+.third{
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border-bottom: 10px solid blueviolet;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px 5px #aaaaaa;
+}
+.fourth{
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border-bottom: 10px solid blueviolet;;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px 5px #aaaaaa;
+
+}

@@ -1,0 +1,39 @@
+/* body{
+    background-image: url("../../images/kacchi.webp");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+.bg1{
+    /* background-image:url("../../images/img_flwr.gif"),url("../../images/paper.gif");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    background-position: right; */
+    background-color: bisque;
+    background-image: url("../../images/bgup1.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px 150px;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    color:black;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:80%;
+    text-align: justify;
+}
+h3{
+    color:black;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p,.bg2{
+    display: inline-block;
+}
+.bg2{
+    width:20%;
+}

@@ -1,0 +1,26 @@
+*{
+    background-color:#FFF7DE;
+    margin: 15px;
+    padding: 5px;
+    font-size: 24px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+h2{
+    text-decoration: underline;
+    margin: 10px;
+    padding: 10px;
+}
+.first p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+.first{
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 10px solid #8937DD ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px #AAAAAA;
+}

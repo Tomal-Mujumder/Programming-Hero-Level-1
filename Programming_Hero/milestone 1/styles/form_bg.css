@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Cambria';
+    font-size: 18px;
+}
+body{
+    background-color:lemonchiffon;
+}
+label,#email{
+    display:block;
+}
+label{
+    text-shadow: navy;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 20px;
+}
+#parent{
+    border: 2px groove #FFF9D0;
+    height: fit-content;
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*if we use "px" then it will move x and y direction where it will consider it's top left corner as a reference point. but if we use "%" then it moves x and y direction with it owns height & width. like -50% means it will move half of it's height in -x direction*/ 
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    /* background-color: white; */
+    background-image: url("../../images/icicle-1125335_1280.jpg");
+    box-shadow: 15px -11px 9px 6px #2E464B;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Playwrite IT Moderna';
+    font-size: 26px;
+}
+.first_name,.last_name{
+    margin: 0px;
+    padding:0px;
+}
+.first_last_container{
+    /* display: inline-block; */
+    margin: 8px;
+    width:100%;
+}
+.div_first_name,.div_last_name{
+    display: inline-block;
+    width: 45%;
+}
+#input_first_name,#input_last_name{
+    outline: none;
+    border:none;
+    border-bottom: 2px solid black;
+    display: block;
+    margin-top: 20px;
+    padding: 8px;
+}
+input[type="text"],[type="email"],[type="password"]{
+    background-color:transparent;
+}
+#input_first_name{
+    width:80%;
+}
+#input_last_name{
+    width:98%;
+}
+#input_first_name::placeholder,#input_last_name::placeholder
+{
+    font-size: 18px;
+    font-style: italic;
+    color:white;
+    opacity: 0.7;
+}
+#email{
+    margin: 8px;
+    padding:8px;
+    width: 90%;
+    border: 0px;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+#password{
+    margin:10px;
+    padding:8px;
+    width:90%;
+    border: 0px;
+    border-bottom: 2px solid black;
+    outline: none; /*when someone clicked on password click there will be no border and outline to show the area of the field */
+}
+#confirm_password{
+    margin: 8px;
+    padding:8px;
+    border: none;
+    border-bottom: 2px solid black;
+    width:90%;
+    outline: none;
+}
+#email::placeholder{
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.5;
+    color:white;
+}
+#password::placeholder{
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    opacity: 0.5;
+}
+#confirm_password::placeholder{
+    font-size: 18px;
+    font-style: italic;
+    color:white;
+    opacity: 0.5;
+}
+.submit_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top:20px;
+    padding:10px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(212, 200, 35) ;
+    color:white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:yellow;
+    font-size: 20px;
+    color:black
+}
+#input_first_name:hover,#input_last_name:hover,#email:hover,#password:hover,#confirm_password:hover{
+    color:white;
+}
