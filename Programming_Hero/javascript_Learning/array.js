@@ -14,9 +14,12 @@ studentRoll.push(19,29,39);
 
 //studentRoll.pop();
 //studentRoll.shift();
-console.log(studentRoll);
 
 studentRoll.unshift(20,10,10);
+
+let search = studentRoll.includes(39);
+if(search)console.log("present\n");
+else console.log("absent\n");
 console.log(studentRoll);
 
 console.log(studentRoll.length);
