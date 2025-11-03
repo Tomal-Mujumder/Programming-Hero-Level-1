@@ -27,4 +27,5 @@
 let me = ['tomal','maisha','kids']
 
 var searchOfindex = me.indexOf('maisha');
+//if true then output 1 otherwise output is zero
 console.log(searchOfindex);
