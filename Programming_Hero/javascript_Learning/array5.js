@@ -19,11 +19,11 @@
 // });
 // console.log(search);
 
-var ami = [{studentName:"tomal",studentId:22103038},{studentName:"maisha", studentId:33040984}]
+// var ami = [{studentName:"tomal",studentId:22103038},{studentName:"maisha", studentId:33040984}]
 
-var search = ami.filter((value,index,arr)=>
-{
-    if(value.studentId>23103038) return index;
+// var search = ami.filter((value,index,arr)=>
+// {
+//     if(value.studentId>23103038) return index;
 
-});
-console.log(search);
+// });
+// console.log(search);
