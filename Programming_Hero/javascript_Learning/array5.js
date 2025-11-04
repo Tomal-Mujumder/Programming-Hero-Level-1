@@ -10,11 +10,20 @@
 // console.log(search);
 // console.log(array[1]);
 
-var ami = [{name:"tomal", age:50}, {name:"mim",age:35}]
+// var ami = [{name:"tomal", age:50}, {name:"mim",age:35}]
 
-var search = ami.map((value,index,arr)=>
+// var search = ami.map((value,index,arr)=>
+// {
+//     if(value.age>40)return value;
+//     else return 0;
+// });
+// console.log(search);
+
+var ami = [{studentName:"tomal",studentId:22103038},{studentName:"maisha", studentId:33040984}]
+
+var search = ami.filter((value,index,arr)=>
 {
-    if(value.age>40)return value;
-    else return 0;
+    if(value.studentId>23103038) return index;
+
 });
 console.log(search);
